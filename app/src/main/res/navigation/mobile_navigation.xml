@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -12,14 +11,26 @@
         tools:layout="@layout/fragment_home" />
 
     <fragment
-        android:id="@+id/navigation_dashboard"
-        android:name="com.example.poms_city_transport.ui.dashboard.DashboardFragment"
-        android:label="@string/title_dashboard"
+        android:id="@+id/navigation_routes"
+        android:name="com.example.poms_city_transport.ui.route.routeFragment"
+        android:label="@string/title_routes"
+        tools:layout="@layout/fragment_route" />
+
+    <fragment
+        android:id="@+id/navigation_adress"
+        android:name="com.example.poms_city_transport.ui.adress.homeFragment"
+        android:label="@string/title_adress"
+        tools:layout="@layout/fragment_map" />
+
+    <fragment
+        android:id="@+id/navigation_info"
+        android:name="com.example.poms_city_transport.ui.info.infoFragment"
+        android:label="@string/title_info"
         tools:layout="@layout/fragment_info" />
 
     <fragment
-        android:id="@+id/navigation_notifications"
-        android:name="com.example.poms_city_transport.ui.notifications.NotificationsFragment"
-        android:label="@string/title_notifications"
-        tools:layout="@layout/fragment_adress" />
+        android:id="@+id/navigation_bookmarks"
+        android:name="com.example.poms_city_transport.ui.bookmarks.bookmarksFragment"
+        android:label="@string/title_bookmarks"
+        tools:layout="@layout/fragment_bookmarks" />
 </navigation>

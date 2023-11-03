@@ -4,28 +4,24 @@
     <item
         android:id="@+id/home"
         android:icon="@drawable/baseline_home_24"
-        android:title="Дом" />
+        android:title="@string/title_home" />
     <item
-        android:id="@+id/map"
+        android:id="@+id/adress"
         android:icon="@drawable/baseline_map_24"
-        android:title="Адрес" />
+        android:title="@string/title_adress" />
     <item
         android:id="@+id/blank_bookmarks"
         android:icon="@drawable/baseline_bookmarks_24"
-        android:title="Закладки" />
+        android:title="@string/title_bookmarks" />
 
     <item
         android:id="@+id/info"
         android:icon="@drawable/baseline_info_24"
-        android:title="Доп.инфо" />
+        android:title="@string/title_info" />
 
     <item
         android:id="@+id/routes"
         android:icon="@drawable/baseline_route_24"
-        android:title="Маршруты" />
-    <item
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:title="Item" />
+        android:title="@string/title_routes" />
 
 </menu>
