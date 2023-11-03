@@ -18,8 +18,8 @@
 
     <fragment
         android:id="@+id/navigation_adress"
-        android:name="com.example.poms_city_transport.ui.adress.homeFragment"
-        android:label="@string/title_adress"
+        android:name="com.example.poms_city_transport.ui.map.mapFragment"
+        android:label="@string/title_map"
         tools:layout="@layout/fragment_map" />
 
     <fragment

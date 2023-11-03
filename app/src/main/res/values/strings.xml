@@ -1,12 +1,10 @@
 <resources>
     <string name="app_name">POMS_city_transport</string>
-    <string name="title_home">Home</string>
-    <string name="title_adress">Dashboard</string>
-    <string name="title_map">Dashboard</string>
-    <string name="title_bookmarks">Dashboard</string>
-    <string name="title_info">Dashboard</string>
-    <string name="title_routes">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
+    <string name="title_home">Домой</string>
+    <string name="title_map">Адреса</string>
+    <string name="title_bookmarks">Закладки</string>
+    <string name="title_info">Доп.инфо</string>
+    <string name="title_routes">Маршруты</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
