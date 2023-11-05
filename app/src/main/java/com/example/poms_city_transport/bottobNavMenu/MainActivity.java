@@ -1,6 +1,8 @@
-package com.example.poms_city_transport;
+package com.example.poms_city_transport.bottobNavMenu;
 
 import android.os.Bundle;
+
+import com.example.poms_city_transport.R;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;

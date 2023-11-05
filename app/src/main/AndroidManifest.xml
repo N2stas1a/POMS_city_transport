@@ -13,7 +13,10 @@
         android:theme="@style/Theme.POMS_city_transport"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
+            android:name=".User.Userdashboard"
+            android:exported="false" />
+        <activity
+            android:name=".bottobNavMenu.MainActivity"
             android:exported="true"
             android:label="@string/app_name">
             <intent-filter>

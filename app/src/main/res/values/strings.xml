@@ -5,6 +5,12 @@
     <string name="title_bookmarks">Закладки</string>
     <string name="title_info">Доп.инфо</string>
     <string name="title_routes">Маршруты</string>
-    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="hotels">Отели</string>
+    <string name="restaraunts">Рестораны</string>
+    <string name="shopes">Магазины</string>
+    <string name="banks">банки</string>
+    <string name="airports">Аэропорт</string>
+
     <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
