@@ -1,4 +1,4 @@
-package com.example.poms_city_transport;
+package com.example.poms_city_transport.bottomNavMenu;
 
 import android.os.Bundle;
 
@@ -8,12 +8,14 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.example.poms_city_transport.R;
+
 /**
  * A simple {@link Fragment} subclass.
- * Use the {@link bookmarksFragment#newInstance} factory method to
+ * Use the {@link routeFragment#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class bookmarksFragment extends Fragment {
+public class routeFragment extends Fragment {
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -24,7 +26,7 @@ public class bookmarksFragment extends Fragment {
     private String mParam1;
     private String mParam2;
 
-    public bookmarksFragment() {
+    public routeFragment() {
         // Required empty public constructor
     }
 
@@ -34,11 +36,11 @@ public class bookmarksFragment extends Fragment {
      *
      * @param param1 Parameter 1.
      * @param param2 Parameter 2.
-     * @return A new instance of fragment bookmarksFragment.
+     * @return A new instance of fragment routeFragment.
      */
     // TODO: Rename and change types and number of parameters
-    public static bookmarksFragment newInstance(String param1, String param2) {
-        bookmarksFragment fragment = new bookmarksFragment();
+    public static routeFragment newInstance(String param1, String param2) {
+        routeFragment fragment = new routeFragment();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);
@@ -59,6 +61,6 @@ public class bookmarksFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_bookmarks, container, false);
+        return inflater.inflate(R.layout.fragment_routes, container, false);
     }
 }
