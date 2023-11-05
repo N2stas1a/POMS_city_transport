@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">POMS_city_transport</string>
+    <string name="app_name">Как доехать.by</string>
     <string name="title_home">Домой</string>
     <string name="title_map">Адреса</string>
     <string name="title_bookmarks">Закладки</string>
@@ -11,6 +11,8 @@
     <string name="shopes">Магазины</string>
     <string name="banks">банки</string>
     <string name="airports">Аэропорт</string>
+
+    <string name="search_text">Искать ...</string>
 
     <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
