@@ -57,7 +57,7 @@
             <RelativeLayout
                 android:layout_width="60dp"
                 android:layout_height="60dp"
-                android:background="@color/card4"
+                android:background="@color/card1"
                 android:elevation="8dp"
                 android:layout_margin="10dp">
 
@@ -173,7 +173,4 @@
         </LinearLayout>
     </LinearLayout>
 
-    </LinearLayout>>
-
-
-</LinearLayout>
+    </LinearLayout>
