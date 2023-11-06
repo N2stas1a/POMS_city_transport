@@ -47,6 +47,9 @@ public class MainActivity extends AppCompatActivity {
                 case 4: // Для R.id.navigation_info
                     replaceFragment(new infoFragment());
                     break;
+                case 5: // Для R.id.navigation_home
+                    replaceFragment(new());
+                    break;
             }
             return true;
         });

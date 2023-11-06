@@ -23,5 +23,9 @@
         android:id="@+id/routes"
         android:icon="@drawable/baseline_route_24"
         android:title="@string/title_routes" />
+    <item
+        android:id="@+id/dashboard"
+        android:icon="@drawable/baseline_space_dashboard_24"
+        android:title="@string/user_dashboard" />
 
 </menu>
