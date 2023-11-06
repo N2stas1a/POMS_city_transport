@@ -6,10 +6,6 @@
         android:icon="@drawable/baseline_home_24"
         android:title="@string/title_home" />
     <item
-        android:id="@+id/map"
-        android:icon="@drawable/baseline_map_24"
-        android:title="@string/title_map" />
-    <item
         android:id="@+id/blank_bookmarks"
         android:icon="@drawable/baseline_bookmarks_24"
         android:title="@string/title_bookmarks" />

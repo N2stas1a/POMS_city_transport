@@ -27,8 +27,6 @@ public class MainActivity extends AppCompatActivity {
             int selectedItemId = item.getItemId();
             if (selectedItemId == R.id.navigation_home) {
                 replaceFragment(new HomeFragment());
-            } else if (selectedItemId == R.id.navigation_map) {
-                replaceFragment(new mapFragment());
             } else if (selectedItemId == R.id.navigation_route) {
                 replaceFragment(new routeFragment());
             } else if (selectedItemId == R.id.navigation_bookmarks) {

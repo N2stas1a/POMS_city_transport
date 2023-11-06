@@ -17,12 +17,6 @@
         tools:layout="@layout/fragment_route" />
 
     <fragment
-        android:id="@+id/navigation_map"
-        android:name="com.example.poms_city_transport.bottomNavMenu.mapFragment"
-        android:label="@string/title_map"
-        tools:layout="@layout/fragment_map" />
-
-    <fragment
         android:id="@+id/navigation_bookmarks"
         android:name="com.example.poms_city_transport.bottomNavMenu.bookmarksFragment"
         android:label="@string/title_bookmarks"

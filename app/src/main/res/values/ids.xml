@@ -3,7 +3,6 @@
 
     <item name="navigation_userdashboard" type="id" />
     <item name="navigation_route" type="id" />
-    <item name="navigation_map" type="id" />
     <item name="navigation_info" type="id" />
 
 </resources>
