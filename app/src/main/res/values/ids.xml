@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="navigation_userdashboard" type="id" />
+    <item name="navigation_route" type="id" />
+    <item name="navigation_map" type="id" />
+    <item name="navigation_info" type="id" />
+
+</resources>
