@@ -19,11 +19,8 @@ public class MainActivity extends AppCompatActivity {
         ActivityMainBinding binding = ActivityMainBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
-        replaceFragment(new HomeFragment());
-
-        BottomNavigationView navView = binding.navView;
-
-        navView.setOnItemSelectedListener(item -> {
+        BottomNavigationView bottomNavigationView = binding.navView;
+        bottomNavigationView.setOnItemSelectedListener(item -> {
             int selectedItemId = item.getItemId();
             if (selectedItemId == R.id.navigation_home) {
                 replaceFragment(new HomeFragment());
@@ -41,9 +38,9 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void replaceFragment(Fragment fragment) {
-        FragmentManager fragmentManager = getSupportFragmentManager();
-        FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
-        fragmentTransaction.replace(R.id.nav_host_fragment_activity_main, fragment);
-        fragmentTransaction.commit();
+        getSupportFragmentManager()
+                .beginTransaction()
+                .replace(R.id.fragment_container, fragment)
+                .commit();
     }
 }

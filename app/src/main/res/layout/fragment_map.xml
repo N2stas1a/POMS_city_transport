@@ -10,6 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:textSize="26dp"
+        android:background="@color/card1"
         android:text="@string/title_map"
         android:layout_gravity="center"/>
 
